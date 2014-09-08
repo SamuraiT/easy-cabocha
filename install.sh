@@ -24,7 +24,7 @@ sudo make install
 sudo ldconfig
 cd ..
 
-tar -xzf cabocha-0.68.tar.bz2
+tar xvjf cabocha-0.68.tar.bz2
 cd cabocha-0.68
 ./configure --with-charset=UTF8 --with-posset=IPA
 make
