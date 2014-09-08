@@ -1,7 +1,11 @@
 sudo apt-get -y update
 sudo apt-get -y install g++
 sudo apt-get -y install libiconv-hook*
- 
+sudo apt-get -y install locales
+
+cat bashrc >> ~/.bashrc
+source ~/.bashrc
+
 tar -xzf mecab-0.996.tar.gz
 cd mecab-0.996
 ./configure --enable-utf8-only
