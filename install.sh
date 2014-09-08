@@ -1,5 +1,6 @@
-
+sudo apt-get -y update
 sudo apt-get -y install g++
+sudo apt-get -y install libiconv-hook*
  
 tar -xzf mecab-0.996.tar.gz
 cd mecab-0.996
@@ -20,7 +21,6 @@ cd CRF++-0.58
 ./configure
 make 
 sudo make install
-ls /usr/local/lib
 sudo ldconfig
 cd ..
 
